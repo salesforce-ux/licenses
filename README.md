@@ -1,5 +1,7 @@
 # Open Source License Agreements
 
+Licensing guidelines for Salesforce UX open source projects.
+
 ## LICENSE files at the root of your projects
 
 You may include these files in your projects.
