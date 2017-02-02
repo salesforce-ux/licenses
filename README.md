@@ -8,9 +8,11 @@ You may include these files in your projects.
 - All icons and images are licensed under [Creative Commons Attribution-NoDerivatives 4.0](http://creativecommons.org/licenses/by-nd/4.0/) (see LICENSE-icons-images.txt)
 - The font is licensed under our font license (see LICENSE-font.txt)
 
-## In-file License Headers
+You should plan to engage with legal team if you intend to use a license other than BSD Clause-3.
 
-Source code (excluding example code) should contain one of these headers at the top of every file depending on the language:
+## License Headers
+
+The shorter version of license text should be added as a comment to all source code and configuration files that support comments. This include file formats like HTML, CSS, JavaScript, XML, etc. which aren’t directly code, but are still critical to your project code.
 
 ```js
 // Copyright (c) YEAR-present, salesforce.com, inc. All rights reserved
@@ -67,3 +69,9 @@ This should appear at the bottom of the README.md file:
 * All icons and images are licensed under [Creative Commons Attribution-NoDerivatives 4.0](https://github.com/salesforce-ux/licenses/blob/master/LICENSE-icons-images.txt)
 * The Salesforce Sans font is licensed under our [font license](https://github.com/salesforce-ux/licenses/blob/master/LICENSE-font.txt)
 ```
+
+## Collaborator Contributions
+
+Non-Salesforce contributors to our open source projects need to sign the Contributor License Agreement.
+
+_Work in progress_
