@@ -26,3 +26,44 @@ Source code (excluding example code) should contain one of these headers at the 
 # Copyright (c) YEAR-present, salesforce.com, inc. All rights reserved
 # Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-bsd3clause
 ```
+
+## package.json
+
+### Single License
+
+Ideal for projects that only contain code, and don't include icons, images or fonts.
+
+```json5
+// package.json
+{
+  ...
+  "license": "BSD-3-Clause",
+  ...
+}
+```
+
+### Multiple licenses
+
+For projects like the Lightning Design System that include icons, images and fonts alongside the code.
+
+#### package.json
+
+```json5
+{
+  ...
+  "license": "SEE LICENSE IN README.md",
+  ...
+}
+```
+
+#### README.md
+
+This should appear at the bottom of the README.md file:
+
+```md
+## Licenses
+
+* Source code is licensed under [BSD 3-Clause](http://git.io/sfdc-bsd3clause)
+* All icons and images are licensed under [Creative Commons Attribution-NoDerivatives 4.0](https://github.com/salesforce-ux/licenses/blob/master/LICENSE-icons-images.txt)
+* The Salesforce Sans font is licensed under our [font license](https://github.com/salesforce-ux/licenses/blob/master/LICENSE-font.txt)
+```
