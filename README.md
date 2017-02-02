@@ -12,17 +12,17 @@ You may include these files in your projects.
 
 Source code (excluding example code) should contain one of these headers at the top of every file depending on the language:
 
-```
+```js
 // Copyright (c) YEAR-present, salesforce.com, inc. All rights reserved
 // Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-bsd3clause
 ```
 
-```
+```js
 /* Copyright (c) YEAR-present, salesforce.com, inc. All rights reserved */
 /* Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-bsd3clause */
 ```
 
-```
+```yaml
 # Copyright (c) YEAR-present, salesforce.com, inc. All rights reserved
 # Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-bsd3clause
 ```
