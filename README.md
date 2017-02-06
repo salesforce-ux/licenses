@@ -76,4 +76,17 @@ This should appear at the bottom of the README.md file:
 
 Non-Salesforce contributors to our open source projects need to sign the Contributor License Agreement.
 
-_Work in progress_
+### Set up a webhook for the CLA bot
+
+1. Go to the repository's **Settings › Webhooks**
+2. Click **Add webhook**
+3. Fill in the form  ![add-webhook](https://cloud.githubusercontent.com/assets/85783/22662023/69b3c3f2-ec5c-11e6-8739-366b9fae1380.png)
+  - Payload URL: `https://cla.salesforce.com/webhook-pullrequest`
+  - Content type: `application/json` 
+  - Which events would you like to trigger this webhook?
+    - Click **Let me select individual events**
+    - **Uncheck "Push"**
+    - **Check "Pull request"**
+4. **Submit** the form
+
+The CLA Bot will check new pull requests and make sure external contributors have signed the Salesforce Contributor License Agreement.
