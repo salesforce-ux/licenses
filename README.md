@@ -14,14 +14,19 @@ You should plan to engage with legal team if you intend to use a license other t
 
 ## License Headers
 
-The shorter version of license text should be added as a comment to all source code and configuration files that support comments. This include file formats like HTML, CSS, JavaScript, XML, etc. which aren’t directly code, but are still critical to your project code.
+The shorter version of license text should be added as a comment to all source code and configuration files that support comments.
 
-```js
+```html
+<!-- Copyright (c) YEAR-present, salesforce.com, inc. All rights reserved -->
+<!-- Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-license -->
+```
+
+```scss
 // Copyright (c) YEAR-present, salesforce.com, inc. All rights reserved
 // Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-license
 ```
 
-```js
+```css
 /* Copyright (c) YEAR-present, salesforce.com, inc. All rights reserved */
 /* Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-license */
 ```
