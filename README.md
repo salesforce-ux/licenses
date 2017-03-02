@@ -80,6 +80,6 @@ This should appear at the bottom of the README.md file:
 ## Collaborator Contributions
 
 Non-Salesforce contributors to our open source projects need to sign the Contributor License Agreement.
-The [Salesforce CLA Bot](https://github.com/integration/salesforce-cla) will check new pull requests and make sure external contributors have signed the Salesforce Contributor License Agreement.
+The [Salesforce CLA Bot](https://github.com/integration/salesforce-cla-v1) will check new pull requests and make sure external contributors have signed the Salesforce Contributor License Agreement.
 
 Copy the [CONTRIBUTING.md file](https://github.com/salesforce-ux/licenses/blob/master/CONTRIBUTING.md) over to the root of your repository.
